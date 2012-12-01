@@ -17,6 +17,7 @@
 		2B4070F6166A04C2007E914B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B4070F4166A04C2007E914B /* ViewController.xib */; };
 		2B4070FE166A054A007E914B /* s.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4070FD166A054A007E914B /* s.m */; };
 		2B407105166A08C9007E914B /* sdzfg.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B407104166A08C9007E914B /* sdzfg.m */; };
+		2B40710E166A0A80007E914B /* dddddd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B40710D166A0A80007E914B /* dddddd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		2B4070FD166A054A007E914B /* s.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = s.m; path = ee/s.m; sourceTree = "<group>"; };
 		2B407103166A08C9007E914B /* sdzfg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sdzfg.h; path = ee/sdzfg.h; sourceTree = "<group>"; };
 		2B407104166A08C9007E914B /* sdzfg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sdzfg.m; path = ee/sdzfg.m; sourceTree = "<group>"; };
+		2B40710C166A0A80007E914B /* dddddd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dddddd.h; sourceTree = "<group>"; };
+		2B40710D166A0A80007E914B /* dddddd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dddddd.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,8 @@
 		2B4070D0166A04C2007E914B = {
 			isa = PBXGroup;
 			children = (
+				2B40710C166A0A80007E914B /* dddddd.h */,
+				2B40710D166A0A80007E914B /* dddddd.m */,
 				2B407103166A08C9007E914B /* sdzfg.h */,
 				2B407104166A08C9007E914B /* sdzfg.m */,
 				2B4070FC166A054A007E914B /* s.h */,
@@ -176,6 +181,7 @@
 				2B4070F3166A04C2007E914B /* ViewController.m in Sources */,
 				2B4070FE166A054A007E914B /* s.m in Sources */,
 				2B407105166A08C9007E914B /* sdzfg.m in Sources */,
+				2B40710E166A0A80007E914B /* dddddd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
