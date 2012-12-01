@@ -16,6 +16,7 @@
 		2B4070F3166A04C2007E914B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4070F2166A04C2007E914B /* ViewController.m */; };
 		2B4070F6166A04C2007E914B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B4070F4166A04C2007E914B /* ViewController.xib */; };
 		2B4070FE166A054A007E914B /* s.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4070FD166A054A007E914B /* s.m */; };
+		2B407105166A08C9007E914B /* sdzfg.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B407104166A08C9007E914B /* sdzfg.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		2B4070F5166A04C2007E914B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		2B4070FC166A054A007E914B /* s.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = s.h; path = ee/s.h; sourceTree = "<group>"; };
 		2B4070FD166A054A007E914B /* s.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = s.m; path = ee/s.m; sourceTree = "<group>"; };
+		2B407103166A08C9007E914B /* sdzfg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sdzfg.h; path = ee/sdzfg.h; sourceTree = "<group>"; };
+		2B407104166A08C9007E914B /* sdzfg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sdzfg.m; path = ee/sdzfg.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +56,8 @@
 		2B4070D0166A04C2007E914B = {
 			isa = PBXGroup;
 			children = (
+				2B407103166A08C9007E914B /* sdzfg.h */,
+				2B407104166A08C9007E914B /* sdzfg.m */,
 				2B4070FC166A054A007E914B /* s.h */,
 				2B4070FD166A054A007E914B /* s.m */,
 				2B4070E5166A04C2007E914B /* ee */,
@@ -170,6 +175,7 @@
 				2B4070F0166A04C2007E914B /* AppDelegate.m in Sources */,
 				2B4070F3166A04C2007E914B /* ViewController.m in Sources */,
 				2B4070FE166A054A007E914B /* s.m in Sources */,
+				2B407105166A08C9007E914B /* sdzfg.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
